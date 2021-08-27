@@ -6,7 +6,7 @@
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home | AdvM Workshop</title>
+    <title>Home | Practical-DL Workshop</title>
     
     <!-- PLUGINS CSS STYLE -->
     <link href="./res/jquery-ui.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg  navigation"> <a class="navbar-brand" href="https://2021.acmmm.org/"> <img src="./res/acmmm.png" alt="" width="140px"> </a>
+                <nav class="navbar navbar-expand-lg  navigation"> <a class="navbar-brand" href="https://aaai.org/Conferences/AAAI-22/"> <img src="./res/aaai2022.png" alt="" width="85px"> </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto main-nav">
@@ -81,14 +81,19 @@
           <div class="col-md-12"> 
             <!-- Section title -->
             <div class="section-title">
-              <h1>1st International Workshop on Adversarial <br>Learning for Multimedia</h1>
+              <h1>1st International Workshop on Practical <br>Deep Learning in the Wild</h1>
 			  <br>
-			  <h4>Workshop at ACM Multimedia 2021</h4>
+			  <h4>Workshop at AAAI Conference on Artificial Intelligence 2022</h4>
 			  <br><br>
               <h2 id="overivew">Overview</h2>
             </div>
-            Deep learning has achieved significant success in multimedia fields involving computer vision, natural language processing, and acoustics. However research in adversarial learning also shows that they are highly vulnerable to adversarial examples. Extensive works have demonstrated that adversarial examples could easily fool deep neural networks to wrong predictions threatening practical deep learning applications in both digital and physical world. Though challenging, discovering and harnessing adversarial attacks is beneficial for diagnosing model blind-spots and further understanding as well as improving multimedia systems in practice.<br><br>
-            In this workshop, we aim to bring together researchers from the fields of adversarial machine learning, model robustness, and explainable AI to discuss recent research and future directions for adversarial robustness of deep learning models, with a particular focus on multimedia applications, including computer vision, acoustics, etc. As far as we know, we are the first workshop to focus on adversarial learning of multimedia deep learning systems, which is of great significance.
+            Deep learning has achieved significant success for artificial intelligence (AI) in multiple fields, including computer vision, natural language processing, and acoustics. 
+            However, research in the AI field also shows that their performance in the wild is far from practical due to the lack of model efficiency and robustness towards open-world data and scenarios. 
+            Regarding model efficiency, in contrast to the ideal environment, it is impractical to train a huge neural network containing billions of parameters using a large-scale high-quality dataset and then deploy it to an edge device in practice. 
+            Meanwhile, considering model robustness, input data with noises frequently occur in open-world scenarios, which presents critical challenges for the building of robust AI systems in practice. 
+            Moreover, existing research presents that there is a trade-off between the robustness and accuracy of deep learning models, while in the context of efficient deep learning with limited resources, it is more challenging to achieve a better trade-off under the premise of satisfying efficiency. 
+            These complex demands have bought profound implications and explosion interests for research into the topic of this workshop, namely building practical AI with efficient and robust deep learning models.
+            As far as we know, we are the first workshop to focus on practical deep learning in the wild, which is of great significance.
         </div>
         </div>
       </div>
@@ -124,177 +129,192 @@
 	<!--==========================================
     =            Speakers Section            =
     ===========================================-->
-    
     <section class="popular-deals section bg-gray"> 
-        <!-- Container Start -->
-        <div class="container" >
-          <div class="row">
-            
-            <div class="col-md-12 align-self-center"> 
-              <!-- Section title -->
-              <div class="section-title">
-                <h2 id="speakers">Keynote Speakers</h2>
+      <!-- Container Start -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12"> 
+            <!-- Section title -->
+            <div class="section-title">
+              <h2 id="people">Keynote Speakers</h2>
+            </div>
+            <div class="card-deck"> 
+  
+              <!-- Organizers list -->
+              <div class="card">
+                <div class="category-block">
+                  <table width="80%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/dawn.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="http://people.eecs.berkeley.edu/~dawnsong/">Dawn Song</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>UC Berkeley</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <div class="card-deck"> 
-                             
-                			          <!-- Organizers list -->
-                <div class="col-md-3 align-self-center">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/alan.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="http://www.cs.jhu.edu/~ayuille/">Alan Yuille</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>Johns Hopkins University</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+              <div class="card">
+                <div class="category-block">
+                  <table width="80%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/dacheng.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html">Dacheng Tao</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>JD Explore Academy</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-		      
-		         			          <!-- Organizers list -->
-                <div class="col-md-3 align-self-center">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/xiaochun.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="http://people.ucas.ac.cn/~0022382?language=en">Xiaochun Cao</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>Chinese Academy of Sciences</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+              </div>
+              <!-- Organizers list -->
+              <div class="card">
+                <div class="category-block">
+                  <table width="80%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/alan.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="http://www.cs.jhu.edu/~ayuille">Alan Yuille</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>Johns Hopkins University</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-				
-							          <!-- Organizers list -->
-                <div class="col-md-3 align-self-center">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/bo.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="https://aisecure.github.io/">Bo Li</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>University of Illinois at Urbana-Champaign</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+              </div>
+              <!-- /Organizers List --> 
+              <div class="card">
+                <div class="category-block">
+                  <table width="80%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/anima.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="http://tensorlab.cms.caltech.edu/users/anima/index.html">Anima Anandkumar</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>California Institute of Technology</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-				
-							          <!-- Organizers list -->
-                <div class="col-md-3 align-self-center">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/tom.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="https://www.cs.umd.edu/~tomg/">Tom Goldstein</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>University of Maryland</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+              </div>
+                                  
+      </div>
+      <br>
+      
+            <div class="card-deck"> 
+  
+              <!-- Organizers list -->
+              <div class="card">
+                <div class="category-block">
+                  <table width="100%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/aishan.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="http://sites.nlsde.buaa.edu.cn/~liuaishan/">Aishan Liu</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>Beihang University</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                              				  </div>
-			  <br>
-			  
-			        <div class="card-deck"> 	  
-		
-			          <!-- Organizers list -->
-                <div class="col-md-3 align-self-center">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/baoyuan.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="https://sites.google.com/site/baoyuanwu2015/">Baoyuan Wu</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>The Chinese University of HongKong, Shenzhen</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+              </div>
+              <div class="card">
+                <div class="category-block">
+                  <table width="100%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/xinyun.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="https://jungyhuk.github.io/">Xinyun Chen</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>UC Berkeley</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <div class="col-md-3 align-self-center">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/pinyu.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="https://sites.google.com/site/pinyuchenpage/">Pin-Yu Chen</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>IBM</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+              </div>
+              <!-- Organizers list -->
+              <div class="card">
+                <div class="category-block">
+                  <table width="100%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/yingwei.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="https://yingwei.li/">Yingwei Li</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>Johns Hopkins University</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-				        <!-- Organizers list -->
-                <div class="col-md-3 align-self-center">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/boqing.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="{http://boqinggong.info/">Boqing Gong</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>Google</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+              </div>
+              <!-- /Organizers List --> 
+              <div class="card">
+                <div class="category-block">
+                  <table width="100%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/chaowei.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="http://www-personal.umich.edu/~xiaocw/">Chaowei Xiao</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>NVIDIA Research & Arizona State University</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <!-- /Organizers List --> 
-                <div class="col-md-3 align-self-center">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/cihang.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="{https://cihangxie.github.io/">Cihang Xie</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>University of California, Santa Cruz</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
+              </div>
+              <div class="card">
 
+                <div class="category-block">
+                  <table width="100%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/xun.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="https://sites.google.com/site/xunyangprofile/">Xun Yang</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>National University of Singapore</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+                                  
+      </div>
+      
           </div>
         </div>
-        <!-- Container End --> 
-      </section>
-    
-	
+      </div>
+      <!-- Container End --> 
+      
+    </section>
 	
 	    <!--==========================================
     =            Call for Papers Section            =
@@ -330,213 +350,139 @@ Topics include but not limited to:<br>
     <!--==========================================
     =            Organizers Section            =
     ===========================================-->
-    
+
     <section class="popular-deals section bg-gray"> 
-        <!-- Container Start -->
-        <div class="container">
-          <div class="row">
-            <div class="col-12"> 
-              <!-- Section title -->
-              <div class="section-title">
-                <h2 id="people">Organizers</h2>
-              </div>
-              <div class="card-deck"> 
-		
-			          <!-- Organizers list -->
-                <div class="card">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/dawn.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="http://people.eecs.berkeley.edu/~dawnsong/">Dawn Song</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>UC Berkeley</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/dacheng.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html">Dacheng Tao</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>JD Explore Academy</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-				        <!-- Organizers list -->
-                <div class="card">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/alan.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="http://www.cs.jhu.edu/~ayuille">Alan Yuille</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>Johns Hopkins University</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <!-- /Organizers List --> 
-                <div class="card">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/anima.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="http://tensorlab.cms.caltech.edu/users/anima/index.html">Anima Anandkumar</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>California Institute of Technology</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div class="card">
-
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/xianglong.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="http://sites.nlsde.buaa.edu.cn/~xlliu/">Xianglong Liu</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>Beihang University</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                              		  
-			  </div>
-			  <br>
-			  
-			        <div class="card-deck"> 
-		
-			          <!-- Organizers list -->
-                <div class="card">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/aishan.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="http://sites.nlsde.buaa.edu.cn/~liuaishan/">Aishan Liu</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>Beihang University</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/xinyun.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="https://jungyhuk.github.io/">Xinyun Chen</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>UC Berkeley</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-				        <!-- Organizers list -->
-                <div class="card">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/yingwei.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="https://yingwei.li/">Yingwei Li</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>Johns Hopkins University</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <!-- /Organizers List --> 
-                <div class="card">
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/chaowei.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="http://www-personal.umich.edu/~xiaocw/">Chaowei Xiao</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>NVIDIA Research & Arizona State University</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div class="card">
-
-                  <div class="category-block">
-                    <table width="100%" border="0" align="center">
-                      <tbody align="center">
-                        <tr height="200px">
-                          <td><img src="./res/xun.png" alt="" class="rounded-circle" width="60%"></td>
-                        </tr>
-                        <tr height="30px">
-                          <td><h5 class="text-center"><a href="https://sites.google.com/site/xunyangprofile/">Xun Yang</a></h5></td>
-                        </tr>
-                        <tr height="60px">
-                          <td><p>National University of Singapore</p></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                              		  
-			  </div>
-        
-			  
-			  
-			  
+      <!-- Container Start -->
+      <div class="container" >
+        <div class="row">
+          
+          <div class="col-md-12 align-self-center"> 
+            <!-- Section title -->
+            <div class="section-title">
+              <h2 id="speakers">Organizers</h2>
             </div>
-          </div>
+            <div class="card-deck"> 
+                           
+                              <!-- Organizers list -->
+              <div class="col-md-2 align-self-center">
+                <div class="category-block">
+                  <table width="100%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/alan.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="http://www.cs.jhu.edu/~ayuille/">Alan Yuille</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>Johns Hopkins University</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+        
+                           <!-- Organizers list -->
+              <div class="col-md-2 align-self-center">
+                <div class="category-block">
+                  <table width="100%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/xiaochun.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="http://people.ucas.ac.cn/~0022382?language=en">Xiaochun Cao</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>Chinese Academy of Sciences</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+      
+                      <!-- Organizers list -->
+              <div class="col-md-2 align-self-center">
+                <div class="category-block">
+                  <table width="100%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/bo.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="https://aisecure.github.io/">Bo Li</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>University of Illinois at Urbana-Champaign</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+      
+                      <!-- Organizers list -->
+              <div class="col-md-2 align-self-center">
+                <div class="category-block">
+                  <table width="100%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/tom.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="https://www.cs.umd.edu/~tomg/">Tom Goldstein</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>University of Maryland</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+      
+                      <!-- Organizers list -->
+              <div class="col-md-2 align-self-center">
+                <div class="category-block">
+                  <table width="100%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/bo.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="https://aisecure.github.io/">Bo Li</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>University of Illinois at Urbana-Champaign</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+      
+                      <!-- Organizers list -->
+              <div class="col-md-2 align-self-center">
+                <div class="category-block">
+                  <table width="100%" border="0" align="center">
+                    <tbody align="center">
+                      <tr height="200px">
+                        <td><img src="./res/tom.png" alt="" class="rounded-circle" width="60%"></td>
+                      </tr>
+                      <tr height="30px">
+                        <td><h5 class="text-center"><a href="https://www.cs.umd.edu/~tomg/">Tom Goldstein</a></h5></td>
+                      </tr>
+                      <tr height="60px">
+                        <td><p>University of Maryland</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+                                      </div>
+
         </div>
-        <!-- Container End --> 
-      </section>
+      </div>
+      <!-- Container End --> 
+    </section>
+
     
 		    <!--==========================================
     =            Schedule Section            =
@@ -593,60 +539,6 @@ Topics include but not limited to:<br>
         </div>
       </div>
     </section>
-    <!--=====================================
-    =            Sponsor Section            =
-    ======================================-->
-	
-    <section class="section"> 
-        <!-- Container Start -->
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12"> 
-              <!-- Section title -->
-              <div class="section-title">
-                <h2>Related Workshops</h2>
-              </div>
-			  
-              <p align="left">
-			  <li><a href="https://aisecure-workshop.github.io/aml-iclr2021/">Security and Safety in Machine Learning Systems (Workshop at ICLR 2021)</a></li>
-			  </p>
-			 
-			  <p align="left">
-			  <li><a href="https://iccv21-adv-workshop.github.io/">Adversarial Robustness in the Real World (Workshop at ICCV 2021)</a></li>
-			  </p>
-			  <p align="left">
-			  <li><a href="https://sites.google.com/view/udlworkshop2021/home">Uncertainty & Robustness in Deep Learning (Workshop at ICML 2021)</a></li>
-              </p>
-			   <p align="left">
-			  <li><a href="https://aisecure-workshop.github.io/amlcvpr2021/">Workshop on Adversarial Machine Learning in Real-World Computer Vision Systems and Online Challenges (Workshop at CVPR 2021)</a></li>
-			  </p>
-            </div>
-          </div>
-        </div>
-        <!-- Container End --> 
-      </section>
-	
-
-    <section class="popular-deals section bg-gray"> 
-        <!-- Container Start -->
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12"> 
-              <!-- Section title -->
-              <div class="section-title">
-                <h2>Sponsors</h2>
-              </div>
-              <p align="center">
-                  <img src="./res/xunfei.png" width="20%">
-                  <!--<img src="./res/baidu.png" width="15%">
-                  <img src="./res/google.jpeg" width="15%">
-                  <img src="./res/light.svg" width="15%">-->
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Container End --> 
-      </section>
     
     <!--============================
     =            Footer            =
