@@ -336,6 +336,13 @@ button {
   padding: 30px 0;
 }
 
+.accepted-papers-title {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
 .section-title {
   position: relative;
   margin-bottom: 75px;
