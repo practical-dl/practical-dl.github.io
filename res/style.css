@@ -5,6 +5,31 @@ body {
   font-family: "Muli", sans-serif;
 }
 
+
+/*.left{
+  width:200px;
+  position: absolute;
+  left: 0px;
+}
+
+.middle{
+  width:33.3%; 
+  margin:0 300px 0 200px;
+}
+
+.right{
+  width:300px;
+  position: absolute;
+  right: 0px;
+}
+*/
+
+.middle{
+  width:33.3%; 
+  margin:0 300px 0 200px;
+}
+
+
 .card.thin0{    
   margin-left: 91.5px;    
   margin-right:22.9px; 
