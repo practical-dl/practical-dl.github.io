@@ -45,17 +45,17 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <nav class="navbar navbar-expand-lg  navigation"> <a class="navbar-brand" href="https://ieeecai.org/2024/"> <img src="./res/ieee-cai-2024.png" alt="" width="200px"> </a>
+              <nav class="navbar navbar-expand-lg  navigation"> <a class="navbar-brand" href="https://2025.ijcai.org/"> <img src="./res/IJCAI2025_Montreal_Logo.png" alt="" width="200px"> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto main-nav">
                     <li class="nav-item active"> <a class="nav-link" href="#overview">Home</a> </li>
                     <li class="nav-item"> <a class="nav-link " href="#call">Calls</a> </li>
                     <li class="nav-item"> <a class="nav-link " href="#speakers">Speakers</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="#challenge">Challenge</a> </li>
+                    <!-- <li class="nav-item"> <a class="nav-link " href="#challenge">Challenge</a> </li> -->
                     <li class="nav-item"> <a class="nav-link " href="#organizers">Organizer</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="#paper">Papers</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="#sponsors">Sponsors</a> </li>
+                    <!-- <li class="nav-item"> <a class="nav-link " href="#paper">Papers</a> </li> -->
+                    <!-- <li class="nav-item"> <a class="nav-link " href="#sponsors">Sponsors</a> </li> -->
                     <li class="nav-item"> <a class="nav-link " href="#committee">Committee</a> </li>
                     <li class="nav-item"> <a class="nav-link " href="#previous">Previous</a> </li>
                   </ul>
@@ -79,27 +79,33 @@
         <div class="col-md-12"> 
           <!-- Section title -->
           <div class="section-title">
-            <h1>3rd Workshop on Practical Deep Learning: <br> Towards Efficient and Reliable LLMs</h1>
+            <h1>4th Workshop on Practical Deep Learning (Practical-DL 2025): <br> Toward Robust Compressed Foundation Models in the Real World</h1>
       <br>
-      <h4>Workshop at IEEE Conference on Artificial Intelligence (IEEE CAI) 2024</h4>
+      <h4>Workshop at IJCAI 2025</h4>
       <br><br>
             <h2 id="overivew">Overview</h2>
           </div>
-          The explosive success of large language models (LLMs) has captured the attention of the deep learning research community, 
-          and their powerful capabilities have demonstrated remarkable performance in various fields, such as natural language processing 
-          and computer vision. For example, since the ChatGPT of OpenAI has been online, it has accumulated over 10 billion users.  
-          However, LLMs face significant efficiency challenges, especially when deploying large neural networks with billions of 
-          parameters on edge devices such as personal computers and smartphones, which is impractical. In addition, LLMs have shown 
-          strong reliability issues (e.g., adversarial vulnerability, biased predictions, hallucinations, etc.), further impeding 
-          their applications in practice. These challenges have provided a strong impetus for model compression/robustness research in the era of LLMs, 
-          leading to the development of resource-efficient and robustness-enhancement methods. The research theme has brought challenges and opportunities 
-          to the deep learning community, requiring experts in deep learning, natural language processing, and computer vision to 
-          adopt interdisciplinary approaches to uncover the underlying mechanisms and develop practical solutions. 
-          By studying and addressing the efficiency and reliability challenges associated with LLMs, we could better enable practitioners 
-          to construct practical LLMs across various domains. The workshop will bring together researchers and practitioners from the machine 
-          learning communities to explore the latest advances and challenges in building practical learning methods, with a special focus on 
-          the efficiency and reliability of LLMs. The workshop consists of invited talks by leading experts in the field and contributed talks 
-          and poster sessions featuring the latest research.
+          Compressed foundation models, particularly compressed large language models (LLMs), are increasingly deployed in real-world applications
+            due to their efficiency advantages. Techniques such as quantization, pruning, and distillation significantly reduce memory consumption 
+            and latency, making it possible to run these models on resource-constrained devices, such as edge computing platforms and mobile 
+            applications. However, compression can also introduce critical robustness and security vulnerabilities, affecting both model reliability 
+            and trustworthiness. Compressed models are often more susceptible to adversarial attacks, hallucinations, jailbreak exploits, and 
+            degradation in out-of-distribution generalization, raising concerns about their safe deployment in high-stakes applications such 
+            as healthcare, finance, and content moderation.
+          <br><br>
+          This workshop places a particular emphasis on the robustness challenges of widely deployed compressed foundation models. While existing
+            workshops may discuss general robustness issues in foundation models or focus on efficiency-driven compression, our workshop uniquely 
+            targets the intersection of model compression and robustness vulnerabilities. This perspective is crucial because compressed models are 
+            now widely used in practice, yet their resilience under real-world threats remains poorly understood and insufficiently addressed. For 
+            instance, quantized LLMs are more vulnerable to adversarial prompts, while pruned models may suffer from increased susceptibility to 
+            factual errors and hallucinations. Addressing these challenges is not just a theoretical exercise but a pressing need for ensuring secure
+            and reliable deployment.
+          <!-- <br><br> -->
+          <!-- By bringing together researchers and practitioners, this workshop aims to advance the field by exploring the latest advancements and open 
+            challenges in designing compression techniques that enhance efficiency without sacrificing robustness. Through in-depth discussions and 
+            knowledge sharing, we seek to drive innovations that en-sure compressed foundation models remain both efficient and secure in real-world applications. -->
+          <br><br>
+          
     <br><br>
     <!-- <strong><font color="#FF0000">Important:</font> The submission deadline of our workshop is 15th Nov 2024 (AoE).</strong>
     (<a href="https://cmt3.research.microsoft.com/PracticalDL2024/" style="color:blue;">Submission Site</a>)
@@ -122,32 +128,26 @@
             <h2 id="call">Call for Papers</h2>
           </div>
           <!-- Deep learning has achieved significant success in multimedia fields, however research in adversarial learning also shows that it is highly vulnerable to adversarial examples. We invite submissions on any aspect of adversarial machine learning in multimedia deep learning systems. -->
-          The explosive success of large language models (LLMs) has captured the attention of the deep learning research community. 
-          However, LLMs face significant efficiency and reliability challenges in practice. 
+          Compressed large language models (LLMs) are increasingly adopted in practice due to their efficiency advantages. 
+          However, these models pose new challenges in robustness and security, raising concerns for their reliable deployment in real-world scenarios.
           We welcome research contributions related to the following (but not limited to) topics:<br>
     <ul style="margin-left: 40px">
-      <li>Model quantization techniques for LLMs</li>
-      <li>Sparse representation and pruning of LLMs</li>
-      <li>Knowledge distillation methods for LLMs</li>
-      <li>Hardware-friendly design of LLMs</li>
-      <li>Efficient neural architecture search for LLMs</li>
-      <li>Federated learning for compressing LLMs</li>
-      <li>Low-rank approximation and tensor decomposition for LLMs</li>
-      <li>Compressed LLMs for resources-constrained hardware and systems</li>
-      <li>Tiny LLM on edge processors</li>
-      <li>Ethical considerations and policy considerations of LLMs on users’ privacy</li>
-      <li>Case studies on real-world privacy challenges and solutions in deploying LLMs</li>
-      <li>Societal impact of privacy within LLMs</li>
-      <li>Broader implications of privacy in LLMs</li>
+      <li>Robustness of Compressed Foundation Models</li>
+      <li>Strategies for Jointly Enhancing Compression Efficiency and Robustness</li>
+      <li>Compression for Robust Foundation Models</li>
+      <li>Efficient and Robust Architectural Designs</li>
+      <li>Robust and Efficient Inference Strategies</li>
+      <li>Privacy and Ethical Considerations in Compressed Models</li>
+      <li>Real-World Case Studies on Compressed Model Security and Privacy</li>
     </ul> 
-    <strong>Submission Format</strong>: Submissions papers (.pdf format) must use the IEEE CAI Article <a href="https://ieeecai.org/2024/paper-submission-and-guidelines/" style="color:blue;">author instructions</a>. 
-    The workshop considers two types of submissions: (1) full papers [6 pages]; (2) short papers [2 pages], including figures, tables and references.
-        <br>
+    <strong>Submission Format</strong>:  Submissions papers (.pdf format) must use the IJCAI Article Template and be anonymized and follow IJCAI 2025 <a href="https://www.ijcai.org/authors_kit/" style="color:blue;">author instructions</a>. 
+    The workshop considers two types of submissions: (1) Long Paper [7 pages]; (2) Extended Abstract [4 pages], including figures, tables and references.
+        <!-- <br>
         <strong><font color="#FF0000">Important:</font></strong> The accepted papers will be published on <a href="https://www.springer.com/series/8335" style="color:blue;">Springer Book Series on Adaptation, Learning, and Optimization</a>.
         <br>
         <strong>Submission Site</strong>: <a href="https://cmt3.research.microsoft.com/PracticalDL2024/" style="color:blue;">https://cmt3.research.microsoft.com/PracticalDL2024/</a> 
         <br>
-        <strong>Submission Due</strong>: 30th Apr, 2024 AoE
+        <strong>Submission Due</strong>: 30th Apr, 2024 AoE -->
 
         </div>
       </div>
@@ -164,11 +164,11 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-title">
-            <h2 id="dates">Workshop Schedule</h2>
+            <h2 id="dates">Workshop Schedule (TBD)</h2>
           </div>
-            <p align="center">
+            <!-- <p align="center">
                 <img src="./res/timeline.png" width="90%">
-            </p>
+            </p> -->
         </div>
       </div>
     </div>
@@ -195,13 +195,13 @@
               <table width="80%" border="0" align="center">
                 <tbody align="center">
                   <tr height="200px">
-                    <td><img src="./res/anima.png" alt="" class="rounded-circle" width="60%"></td>
+                    <td><img src="./res/Schahram Dustdar.jpg" alt="" class="rounded-circle" width="60%"></td>
                   </tr>
                   <tr height="30px">
-                    <td><h5 class="text-center"><a href="http://tensorlab.cms.caltech.edu/users/anima/">Anima Anandkumar</a></h5></td>
+                    <td><h5 class="text-center"><a href="https://dsg.tuwien.ac.at/team/sd/">Schahram Dustdar</a></h5></td>
                   </tr>
                   <tr height="60px">
-                    <td><p><br>Caltech</p></td>
+                    <td><p>TU Wien</p></td>
                   </tr>
                 </tbody>
               </table>
@@ -212,36 +212,19 @@
               <table width="80%" border="0" align="center">
                 <tbody align="center">
                   <tr height="200px">
-                    <td><img src="./res/songhan.jpeg" alt="" class="rounded-circle" width="60%"></td>
+                    <td><img src="./res/Omer Rana.png" alt="" class="rounded-circle" width="60%"></td>
                   </tr>
                   <tr height="30px">
-                    <td><h5 class="text-center"><a href="https://hanlab.mit.edu/songhan">Song Han</a></h5></td>
+                    <td><h5 class="text-center"><a href="https://profiles.cardiff.ac.uk/staff/ranaof">Omer Rana</a></h5></td>
                   </tr>
                   <tr height="60px">
-                    <td><p><br><br>MIT<br>NVIDIA<br></p></td>
+                    <td><p>Cardiff University</p></td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
           <!-- Speakers list -->
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="200px">
-                    <td><img src="./res/zicokolter.jpg" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="30px">
-                    <td><h5 class="text-center"><a href="https://zicokolter.com/">Zico Kolter</a></h5></td>
-                  </tr>
-                  <tr height="60px">
-                    <td><p><br><br>CMU<br><br></p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
           
           <div class="card">
             <div class="category-block">
@@ -254,34 +237,15 @@
                     <td><h5 class="text-center"><a href="https://aisecure.github.io/">Bo Li</a></h5></td>
                   </tr>
                   <tr height="60px">
-                    <td><p><br><br>UIUC<br><br></p></td>
+                    <td><p><br><br>UChicago/UIUC<br><br></p></td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
           
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="200px">
-                    <td><img src="./res/leima.jpg" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="30px">
-                    <td><h5 class="text-center"><a href="https://www.malei.org/">Lei Ma</a></h5></td>
-                  </tr>
-                  <tr height="60px">
-                    <td><p><br>The University of Tokyo/University of Alberta</p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-        <br>
-  
-        <div class="card-deck"> 
+        
+        <!-- <div class="card-deck">  -->
 
           <div class="card">
             <div class="category-block">
@@ -291,7 +255,7 @@
                     <td><img src="./res/neil.png" alt="" class="rounded-circle" width="60%"></td>
                   </tr>
                   <tr height="30px">
-                    <td><h5 class="text-center"><a href="https://gonglab.pratt.duke.edu/people/neil-gong">Neil Gong</a></h5></td>
+                    <td><h5 class="text-center"><a href="https://ece.duke.edu/people/neil-gong/">Neil Gong</a></h5></td>
                   </tr>
                   <tr height="60px">
                     <td><p><br><br>Duke University<br><br></p></td>
@@ -305,13 +269,13 @@
               <table width="80%" border="0" align="center">
                 <tbody align="center">
                   <tr height="200px">
-                    <td><img src="./res/Xinyun.jpg" alt="" class="rounded-circle" width="60%"></td>
+                    <td><img src="./res/Furong Huang.jpg" alt="" class="rounded-circle" width="60%"></td>
                   </tr>
                   <tr height="30px">
-                    <td><h5 class="text-center"><a href="https://jungyhuk.github.io/">Xinyun Chen</a></h5></td>
+                    <td><h5 class="text-center"><a href="https://furong-huang.com/">Furong Huang</a></h5></td>
                   </tr>
                   <tr height="60px">
-                    <td><p><br><br>Google Brain<br><br></p></td>
+                    <td><p>UMD</p></td>
                   </tr>
                 </tbody>
               </table>
@@ -323,53 +287,37 @@
               <table width="80%" border="0" align="center">
                 <tbody align="center">
                   <tr height="200px">
-                    <td><img src="./res/TLC.jpg" alt="" class="rounded-circle" width="60%"></td>
+                    <td><img src="./res/florian.png" alt="" class="rounded-circle" width="60%"></td>
                   </tr>
                   <tr height="30px">
-                    <td><h5 class="text-center"><a href="https://tianlong-chen.github.io/">Tianlong Chen</a></h5></td>
+                    <td><h5 class="text-center"><a href="https://www.floriantramer.com/">Florian Tramèr</a></h5></td>
                   </tr>
                   <tr height="60px">
-                    <td><p><br><br>UNC Chapel Hill<br><br></p></td>
+                    <td><p>ETH Zürich</p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="card">
+            <div class="category-block">
+              <table width="80%" border="0" align="center">
+                <tbody align="center">
+                  <tr height="200px">
+                    <td><img src="./res/yawei_li.png" alt="" class="rounded-circle" width="60%"></td>
+                  </tr>
+                  <tr height="50px">
+                    <td><h5 class="text-center"><a href="https://yaweili.bitbucket.io/">Yawei Li</a></h5></td>
+                  </tr>
+                  <tr height="40px">
+                    <td><p><br>ETH Zürich<br><br></p></td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
 
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="200px">
-                    <td><img src="./res/Aaron Gilad Kusne.jpg" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="30px">
-                    <td><h5 class="text-center"><a href="https://www.nist.gov/people/aaron-gilad-kusne">Aaron Gilad Kusne</a></h5></td>
-                  </tr>
-                  <tr height="60px">
-                    <td><p>NIST</p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="200px">
-                    <td><img src="./res/yuanfang.jpeg" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="30px">
-                    <td><h5 class="text-center"><a href="https://irip.buaa.edu.cn/andyguo/index.html">Yuanfang Guo</a></h5></td>
-                  </tr>
-                  <tr height="60px">
-                    <td><p><br><br>Beihang University<br><br></p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+    
           </div>         
   
       </div>
@@ -399,85 +347,32 @@
             <div class="category-block">
               <table width="80%" border="0" align="center">
                 <tbody align="center">
-                  <tr height="150px">
+                  <tr height="250px">
+                    <td><img src="./res/xingyu.jpg" alt="" class="rounded-circle" width="60%"></td>
+                  </tr>
+                  <tr height="50px">
+                    <td><h5 class="text-center"><a href="https://xingyu-zheng.github.io/">Xingyu Zheng</a></h5></td>
+                  </tr>
+                  <tr height="40px">
+                    <td><p><br>Beihang University<br><br><br></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="category-block">
+              <table width="80%" border="0" align="center">
+                <tbody align="center">
+                  <tr height="250px">
                     <td><img src="./res/haotong.png" alt="" class="rounded-circle" width="60%"></td>
                   </tr>
                   <tr height="50px">
                     <td><h5 class="text-center"><a href="https://htqin.github.io/">Haotong Qin</a></h5></td>
                   </tr>
                   <tr height="40px">
-                    <td><p><br>ETH Zurich<br><br><br></p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="150px">
-                    <td><img src="./res/ruihao.jpg" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="50px">
-                    <td><h5 class="text-center"><a href="https://xhplus.github.io/">Ruihao Gong</a></h5></td>
-                  </tr>
-                  <tr height="40px">
-                    <td><p><br>SenseTime Research<br><br></p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <!-- Organizers list -->
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="150px">
-                    <td><img src="./res/jiakai.png" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="50px">
-                    <td><h5 class="text-center"><a href="https://jiakaiwangcn.github.io/">Jiakai Wang</a></h5></td>
-                  </tr>
-                  <tr height="40px">
-                    <td><p><br>Zhongguancun Laboratory<br><br></p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <!-- /Organizers List --> 
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="150px">
-                    <td><img src="./res/qing.jpeg" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="50px">
-                    <td><h5 class="text-center"><a href="https://tsingqguo.github.io/">Qing Guo</a></h5></td>
-                  </tr>
-                  <tr height="40px">
-                    <td><p><br>Center for Frontier AI Research (CFAR), A*STAR</p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="150px">
-                    <td><img src="./res/daquan.jpeg" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="50px">
-                    <td><h5 class="text-center"><a href="https://scholar.google.com/citations?user=DdCAbWwAAAAJ">Daquan Zhou</a></h5></td>
-                  </tr>
-                  <tr height="40px">
-                    <td><p><br>ByteDance, US<br><br><br></p></td>
+                    <td><p><br>ETH Zürich<br><br><br></p></td>
                   </tr>
                 </tbody>
               </table>
@@ -488,109 +383,115 @@
             <div class="category-block">
               <table width="80%" border="0" align="center">
                 <tbody align="center">
-                  <tr height="150px">
+                  <tr height="250px">
+                    <td><img src="./res/aishan.png" alt="" class="rounded-circle" width="60%"></td>
+                  </tr>
+                  <tr height="50px">
+                    <td><h5 class="text-center"><a href="https://liuaishan.github.io/">Aishan  Liu</a></h5></td>
+                  </tr>
+                  <tr height="40px">
+                    <td><p><br>Beihang University<br><br><br></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="category-block">
+              <table width="80%" border="0" align="center">
+                <tbody align="center">
+                  <tr height="250px">
+                    <td><img src="./res/jiezhang.png" alt="" class="rounded-circle" width="60%"></td>
+                  </tr>
+                  <tr height="50px">
+                    <td><h5 class="text-center"><a href="https://zjzac.github.io/">Jie Zhang</a></h5></td>
+                  </tr>
+                  <tr height="40px">
+                    <td><p><br>Center for Frontier<br> AI Research<br> (CFAR), A*STAR<br></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="category-block">
+              <table width="80%" border="0" align="center">
+                <tbody align="center">
+                  <tr height="250px">
+                    <td><img src="./res/yulunzhang.jpg" alt="" class="rounded-circle" width="60%"></td>
+                  </tr>
+                  <tr height="50px">
+                    <td><h5 class="text-center"><a href="https://yulunzhang.com/">Yulun Zhang</a></h5></td>
+                  </tr>
+                  <tr height="40px">
+                    <td><p><br>Shanghai Jiao Tong University<br><br></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+  </div>
+  <br>
+        
+        <div class="card-deck"> 
+          <div class="card">
+            <div class="category-block">
+              <table width="80%" border="0" align="center">
+                <tbody align="center">
+                  <tr height="250px">
                     <td><img src="./res/olivera.png" alt="" class="rounded-circle" width="60%"></td>
                   </tr>
                   <tr height="50px">
                     <td><h5 class="text-center"><a href="https://okotevska.github.io">Olivera Kotevska</a></h5></td>
                   </tr>
                   <tr height="40px">
-                    <td><p><br>Oak Ridge National Laboratory</p></td>
+                    <td><p><br>Oak Ridge National Laboratory<br></p></td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
                               
-  </div>
+  <!-- </div>
   <br>
   
-        <div class="card-deck"> 
+        <div class="card-deck">  -->
 
           <!-- Organizers list -->
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="150px">
-                    <td><img src="./res/aishan.png" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="50px">
-                    <td><h5 class="text-center"><a href="https://liuaishan.github.io/">Aishan Liu</a></h5></td>
-                  </tr>
-                  <tr height="40px">
-                    <td><p>Beihang University<br><br><br></p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="150px">
-                    <td><img src="./res/zhen.jpeg" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="50px">
-                    <td><h5 class="text-center"><a href="https://dong-zhen.com">Zhen Dong</a></h5></td>
-                  </tr>
-                  <tr height="40px">
-                    <td><p>UC Berkeley<br><br><br></p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <!-- Organizers list -->
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="150px">
-                    <td><img src="./res/shanghang.png" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="50px">
-                    <td><h5 class="text-center"><a href="https://www.shanghangzhang.com/">Shanghang Zhang</a></h5></td>
-                  </tr>
-                  <tr height="40px">
-                    <td><p>Peking University<br><br></p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <!-- /Organizers List --> 
-          <div class="card">
-            <div class="category-block">
-              <table width="80%" border="0" align="center">
-                <tbody align="center">
-                  <tr height="150px">
-                    <td><img src="./res/huanrui.jpeg" alt="" class="rounded-circle" width="60%"></td>
-                  </tr>
-                  <tr height="50px">
-                    <td><h5 class="text-center"><a href="https://sites.google.com/view/huanrui-yang">Huanrui Yang</a></h5></td>
-                  </tr>
-                  <tr height="40px">
-                    <td><p>UC Berkeley<br><br></p></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
 
           <div class="card">
             <div class="category-block">
               <table width="80%" border="0" align="center">
                 <tbody align="center">
-                  <tr height="150px">
+                  <tr height="250px">
                     <td><img src="./res/xianglong.png" alt="" class="rounded-circle" width="60%"></td>
                   </tr>
                   <tr height="50px">
                     <td><h5 class="text-center"><a href="https://xlliu-beihang.github.io/">Xianglong Liu</a></h5></td>
                   </tr>
                   <tr height="40px">
-                    <td><p>Beihang University<br><br></p></td>
+                    <td><p><br>Beihang University<br><br></p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="category-block">
+              <table width="80%" border="0" align="center">
+                <tbody align="center">
+                  <tr height="250px">
+                    <td><img src="./res/Michele Magno.jpeg" alt="" class="rounded-circle" width="60%"></td>
+                  </tr>
+                  <tr height="50px">
+                    <td><h5 class="text-center"><a href="https://ee.ethz.ch/the-department/people-a-z/person-detail.michele-magno.html">Michele Magno</a></h5></td>
+                  </tr>
+                  <tr height="40px">
+                    <td><p><br>ETH Zürich<br><br></p></td>
                   </tr>
                 </tbody>
               </table>
@@ -601,14 +502,14 @@
             <div class="category-block">
               <table width="80%" border="0" align="center">
                 <tbody align="center">
-                  <tr height="150px">
+                  <tr height="250px">
                     <td><img src="./res/dacheng.png" alt="" class="rounded-circle" width="60%"></td>
                   </tr>
                   <tr height="50px">
                     <td><h5 class="text-center"><a href="https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=en">Dacheng Tao</a></h5></td>
                   </tr>
                   <tr height="40px">
-                    <td><p>Nanyang Technological University</p></td>
+                    <td><p><br>Nanyang Technological University</p></td>
                   </tr>
                 </tbody>
               </table>
@@ -645,7 +546,7 @@
   </div> -->
   
     
-<section class="popular-deals section bg-gray"> 
+<!-- <section class="popular-deals section bg-gray"> 
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -696,12 +597,12 @@
   </div>
   </div>
     </div>
-  </section>
+  </section> -->
 
     <!--==========================================
   =            Program Committee Section            =
   ===========================================-->
-  
+  <!--
   <section class="section">  
     <div class="container">
       <div class="row">
@@ -709,29 +610,9 @@
           <div class="section-title">
             <h2 id="committee">Organizing Committee</h2>
           </div>
-    <!-- <div class="left">
-      <ul style="margin-left: 80px">
-        <li>Xingyu Zheng, Beihang University</li>
-        <li>Xudong Ma, Beihang University</li>
-        <li>Wei Huang, The University of Hong Kong</li>
-        <li>Mingyuan Zhang, Nanyang Technological University</li>
-      </ul>
-    </div>
-    <div class="right">
-      <ul style="margin-right: 0px">
-        <div> -->
-          <!-- <ul> -->
-        <!-- <li>Zixiang Zhao, Xi’an Jiaotong University</li>
-        <li>Renshuai Tao, Beijing Jiaotong University</li>
-      </ul>
-      </div>
-        </div>
-      </div>
-    </div> -->
 
     <div class="card-deck"> 
 
-      <!-- Organizers list -->
       <div class="card">
         <div class="category-block">
           <table width="80%" border="0" align="center">
@@ -766,7 +647,6 @@
           </table>
         </div>
       </div>
-      <!-- Organizers list -->
       <div class="card">
         <div class="category-block">
           <table width="80%" border="0" align="center">
@@ -784,7 +664,6 @@
           </table>
         </div>
       </div>
-      <!-- /Organizers List --> 
       <div class="card">
         <div class="category-block">
           <table width="80%" border="0" align="center">
@@ -837,7 +716,7 @@
         </div>
       </div>
 
-  </section>
+  </section> -->
 
   <!-- <section class="section"> 
     <div class="container">
@@ -931,6 +810,7 @@
           <div class="section-title">
             <h2 id="previous">Previous Workshops</h2>
         </div>
+        <p><a href="https://practical-dl.github.io/2024/index" style="color:blue;">3rd Workshop on Practical Deep Learning: Towards Efficient and Reliable LLMs</a> @ IEEE CAI 2024</p>
         <p><a href="https://practical-dl.github.io/2023/index" style="color:blue;">2nd International Workshop on Practical Deep Learning in the Wild</a> @ AAAI 2023</p>
         <p><a href="https://practical-dl.github.io/2022/index" style="color:blue;">1st International Workshop on Practical Deep Learning in the Wild</a> @ AAAI 2022</p>
       </div>
@@ -949,7 +829,7 @@
         <div class="col-sm-12 col-12"> 
           <!-- Copyright -->
           <div class="copyright">
-            <p class="text-center">For any further questions, you can contact <a href="mailto:qinhaotong@buaa.edu.cn"><font color="#5672f9">Haotong Qin</font></a>, <a href="mailto:gongruihao@sensetime.com"><font color="#5672f9">Ruihao Gong</font></a>, and <a href="mailto:liuaishan@buaa.edu.cn"><font color="#5672f9">Aishan Liu</font></a>.</p>
+            <p class="text-center">For any further questions, you can contact <a href="mailto:zhengxingyu@buaa.edu.cn"><font color="#5672f9">Xingyu Zheng</font></a>, <a href="mailto:haotong.qin@pbl.ee.ethz.ch"><font color="#5672f9">Haotong Qin</font></a>, and <a href="mailto:liuaishan@buaa.edu.cn"><font color="#5672f9">Aishan Liu</font></a>.</p>
             <!-- <p class="text-center">For any further questions, you can contact <a href="mailto:qinhaotong@buaa.edu.cn"><font color="#5672f9">Haotong Qin</font></a>, <a href="mailto:xinyun.chen@berkeley.edu"><font color="#5672f9">Xinyun Chen</font></a>, or <a href="mailto:yingwei.li@jhu.edu"><font color="#5672f9">Yingwei Li</font></a>.</p> -->
               <br class="clear">
           </div>
